@@ -1,23 +1,24 @@
 {
-  "name": "project-nature",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArunRaj213/project-nature.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ArunRaj213/project-nature/issues"
-  },
-  "homepage": "https://github.com/ArunRaj213/project-nature#readme",
-  "dependencies": {
-    "node-sass": "^7.0.1"
-  }
+    "name": "project-nature",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ArunRaj213/project-nature.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ArunRaj213/project-nature/issues"
+    },
+    "homepage": "https://github.com/ArunRaj213/project-nature#readme",
+    "dependencies": {
+        "node-sass": "^7.0.1"
+    },
+    "devDependencies": {},
+    "description": ""
 }
