@@ -27,8 +27,9 @@
     }
     &__caption {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 30%;
+        left: 20%;
+        right: 20%;
         transform: translate(-50% 20%);
         color: $color-white;
         font-size: 1.7rem;
@@ -39,7 +40,7 @@
         transition: all .5s;
     }
     &:hover &__caption {
-        transform: translate(-50% -50%);
+        transform: translate(-30% -50%);
         opacity: 1;
     }
     &:hover &__img {

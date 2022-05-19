@@ -175,6 +175,20 @@ body {
   box-shadow: o 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .15;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -322,8 +336,9 @@ body {
     transform: skewX(12deg); }
   .story__caption {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 20%;
+    right: 20%;
     transform: translate(-50% 20%);
     color: #fff;
     font-size: 1.7rem;
@@ -333,7 +348,7 @@ body {
     backface-visibility: hidden;
     transition: all .5s; }
   .story:hover .story__caption {
-    transform: translate(-50% -50%);
+    transform: translate(-30% -50%);
     opacity: 1; }
   .story:hover .story__img {
     transform: translateX(-4rem) scale(1);
@@ -423,5 +438,5 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
-  background-color: #f7f7f7;
-  padding: 15rem 0; }
+  position: relative;
+  padding: 10rem 0; }
