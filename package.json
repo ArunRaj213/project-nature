@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+        "watch:sass": "node-sass sass/main.scss css/style.css -w",
+        "compile:sass": "node-sass sass/main.scss css/style.comp.css"
     },
     "repository": {
         "type": "git",
@@ -16,8 +17,10 @@
         "url": "https://github.com/ArunRaj213/project-nature/issues"
     },
     "homepage": "https://github.com/ArunRaj213/project-nature#readme",
-    "dependencies": {
+    "description": "",
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "concat": "^1.0.3",
         "node-sass": "^7.0.1"
-    },
-    "description": ""
+    }
 }
